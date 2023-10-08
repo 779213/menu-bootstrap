@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C'è cibo per Te</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/ideogram%20(1).jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body class="body bg-warning-subtle">
+
+<div class="logo d-flex justify-content-center">
+    <a href="#" class="logo-brand">
+        <img src="image/ideogram%20(1).jpeg" alt="logo" width="100" height="100">
+    </a>
+</div>
+
+<div class="presentation mt-3 d-flex justify-content-center ms-2 me-2">
+    <p>
+        Siamo contenti di presentarvi il nostro menù,
+        ricco di specialità, di passione e di voglia
+        di farvi mangiare bene
+    </p>
+</div>
+
+<h2 class="title d-flex justify-content-center">MENU</h2>
+
+<section
+        class="menu border border-2  bg-dark d-sm-flex flex-sm-row gap-3 justify-content-sm-between align-items-sm-baseline container-fluid">
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-danger mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Antipasti
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body-antipasti d-flex flex-column justify-content-center align-items-center">
+                    <div class="menù-antipasti">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                            Affettato della casa
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-danger">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Affettato della casa</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="image/affettato.jpg" width="200px" alt="">
+                                        <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                            style="list-style-type: disc">
+                                            <li>Speck</li>
+                                            <li>Capicollo</li>
+                                            <li>Pancetta</li>
+                                            <li>Salame</li>
+                                            <li>olive snocciolate</li>
+                                            <li>Bocconcino</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                            data-bs-target="#Modal">
+                        Bruschette
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger">
+                                    <h1 class="modal-title fs-5" id="ModalLabel">Bruschette</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="image/bruschetta.jpg" width="200px" alt="">
+                                    <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                        style="list-style-type: disc">
+                                        <li>Bruschetta con pomodorini</li>
+                                        <li>Bruschetta con pesto, noci e stracciata di bufala</li>
+                                        <li>Bruschetta con crema di carciofi e speck</li>
+                                        <li>Bruschetta con tartufo e salsiccia</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                            data-bs-target="#Modal1">
+                        Provola alla brace
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger">
+                                    <h1 class="modal-title fs-5" id="ModalLabel1">Provola alla brace</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="image/mozzarella.jpg" width="200px" alt="">
+                                    <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                        style="list-style-type: disc">
+                                        <li>Provola con speck</li>
+                                        <li>Provola con speck e porcini</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                            data-bs-target="#Modal2">
+                        Buffet
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger">
+                                    <h1 class="modal-title fs-5" id="ModalLabel2">Buffet</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="image/buffet.jpg" width="200px" alt="">
+                                    <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                        style="list-style-type: disc">
+                                        <li>Parmigiana di melenzane</li>
+                                        <li>Zucchine alla scapece</li>
+                                        <li>Melenzane a funghetto</li>
+                                        <li>Broccoli</li>
+                                        <li>Peperoni</li>
+                                        <li>Verdura mista grigliata</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="accordion accordion-flush" id="PrimiPiatti">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-white mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Primi Piatti
+                </button>
+            </h2>
+            <div id="flush-collapseOne1" class="accordion-collapse collapse" data-bs-parent="#PrimiPiatti">
+                <div class="accordion-body-primi d-flex flex-column justify-content-center align-items-center">
+                    <div class="menù-primi">
+                        <ul class="mt-3 text-bg-light">
+                            <li><strong>Pappardella con lardo, basilico e patate</strong></li>
+                            <li><strong>Pappardella con i funghi porcini</strong></li>
+                            <li><strong>Gnocchi alla sorrentina</strong></li>
+                            <li><strong>Ravioli con crema di pistacchio e speck</strong></li>
+                            <li><strong>Calamarata allo scarpariello</strong></li>
+                            <li><strong>Scialatiello con zucchine e provola</strong></li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="accordion accordion-flush" id="SecondiPiatti">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Secondi Piatti
+                </button>
+            </h2>
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#SecondiPiatti">
+                <div class="accordion-body-secondi d-flex flex-column justify-content-center align-items-center">
+                    <div class="menù-secondi">
+
+
+                        <div class="menù-secondi">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                                    data-bs-target="#Modal3">
+                                Bistecca di Vitello
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-success">
+                                            <h1 class="modal-title fs-5" id="ModalLabel3">Bistecca di vitello</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="image/vitello.jpg" width="200px" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="menù-secondi">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                                data-bs-target="#Modal4">
+                            Bistecca di Maiale
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h1 class="modal-title fs-5" id="ModalLabel4">Bistecca di Maiale</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="image/maiale.jpg" width="200px" alt="">
+                                        <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                            style="list-style-type: disc">
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="menù-secondi">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                                data-bs-target="#Modal5">
+                            Salsiccia
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h1 class="modal-title fs-5" id="ModalLabel5">Salsiccia</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="image/salsiccia.jpg" width="200px" alt="">
+                                        <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                            style="list-style-type: disc">
+                                            <li>Salsiccia di maiale</li>
+                                            <li>Salsiccia con fonduta di parmigiano</li>
+                                            <li>Salsiccia con fonduta ai 4 formaggi</li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="menù-secondi">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
+                                data-bs-target="#Modal6">
+                            Tagliata
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h1 class="modal-title fs-5" id="ModalLabel6">Tagliata</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="image/tagliata.jpg" width="200px" alt="">
+                                        <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                            style="list-style-type: disc">
+                                            <li>Tagliata semplice con solo tappeto di rucola</li>
+                                            <li>Tagliata cn rucola, scaglie ed aceto balsamico</li>
+                                            <li>Tagliata con porcini</li>
+                                            <li>Tagliata con pomodorini</li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="accordion accordion-flush" id="Contorni">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-warning mt-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Contorni
+                </button>
+            </h2>
+            <div id="flush-collapseOne3" class="accordion-collapse collapse" data-bs-parent="#Contorni">
+                <div class="accordion-body-contorni d-flex flex-column justify-content-center align-items-center">
+                    <div class="contorni">
+                        <ul class="mt-3 gap-2 text-bg-light">
+                            <li>Insalata verde</li>
+                            <li>Insalata Mista</li>
+                            <li>Patatine fritte</li>
+                            <li>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning " data-bs-toggle="modal"
+                                        data-bs-target="#Modal7">
+                                    Buffet
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-warning">
+                                                <h1 class="modal-title fs-5" id="ModalLabel7">Buffet</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="image/buffet.jpg" width="200px" alt="">
+                                                <ul class="d-flex flex-column justify-content-center gap-2 mt-2"
+                                                    id="Buffet"
+                                                    style="list-style-type: disc">
+                                                    <li>Parmigiana di melenzane</li>
+                                                    <li>Zucchine alla scapece</li>
+                                                    <li>Melenzane a funghetto</li>
+                                                    <li>Broccoli</li>
+                                                    <li>Peperoni</li>
+                                                    <li>Verdura mista grigliata</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<h3 class=" mt-5 text-center">Seguici sui Social</h3>
+
+<section class="social mt-3 d-flex flex-row justify-content-center gap-3 ">
+
+
+    <a href="https://www.facebook.com/federico.santucci.14" target="_blank" class="facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
+        </svg>
+    </a>
+
+
+    <a href="#" class="instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+        </svg>
+    </a>
+
+</section>
+
+
+<h4 class="mt-4 text-center"> Contattaci</h4>
+
+<section class="contact d-flex flex-column justify-content-center align-items-center gap-3">
+    <a href="#" class="whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+
+        3401220154
+    </a>
+
+    <a href="#" class="email">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
+        </svg>
+        ceciboperte@libero.it
+    </a>
+
+
+</section>
+
+<h5 class="mt-4 text-center"> Ci trovi qui</h5>
+
+<div class="adress d-flex justify-content-center">
+
+    <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+        Corso Umberto I n.56 , Cava De Tirreni
+
+    </a>
+
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
