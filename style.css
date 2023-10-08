@@ -26,6 +26,44 @@
     background-repeat: no-repeat;
 }
 
+.affettato{
+    width: 200px;
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+.bruschetta{
+    width: 200px;
+}
+
+.provola{
+    width: 200px;
+}
+
+.buffet{
+    width: 200px;
+}
+
+.vitello{
+    width: 200px;
+}
+
+.maiale{
+    width: 200px;
+}
+
+.salsiccia{
+    width: 200px;
+}
+
+.tagliata{
+    width: 200px;
+}
+
+
 a:hover{
     background-color: blue;
 }
