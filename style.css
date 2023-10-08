@@ -1,0 +1,32 @@
+:root{
+    box-sizing: border-box;
+}
+
+.accordion-body-antipasti{
+    background-image: url("/image/cibo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accordion-body-primi{
+    background-image: url("image/pasta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accordion-body-secondi{
+    background-image: url("image/tagliata.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accordion-body-contorni{
+    background-image: url("image/contorni.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:hover{
+    background-color: blue;
+}
+
